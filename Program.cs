@@ -1,10 +1,12 @@
 ﻿
 string[] clipping(string[] arr, int numb){
-    return 0;
+    return arr;
 }
 
 void printArr(string[] arr){
-    
+    for (int i=0; i < arr.Length; i++){
+        Console.Write(arr[i] + " ");
+    }
 }
 
 int number = 3;
